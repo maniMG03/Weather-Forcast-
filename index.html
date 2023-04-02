@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    
+    <title>Weather Forcast</title>
+</head>
+<body onload="DefaultScreen()">
+    <center>
+        <header>WEATHER FORCAST</header><br><br>
+        <p id="inputContainer">CITY: <input type="text" id="cityInput"></p>
+        <button class="butt" type="button" onclick="GetInfo()">Search</button>        
+        <h2 id="cityName">---Delhi---</h2>
+        <br><br>
+    </center>
+    
+    <div id = "weatherContainer">   
+            <div class = "icons">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+                <p class="temp" id="day1temp">Loading...</p>
+                <p class="humidity" id="day1humidity">Loading...</p>
+                <p class="main" id="day1Main">Loading...</p>
+              
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+                <p class="temp" id="day2temp">Loading...</p>
+                <p class="humidity" id="day2humidity">Loading...</p>
+                <p class="main" id="day2Main">Loading...</p>
+          
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+                <p class="temp" id="day3temp">Loading...</p>
+                <p class="humidity" id="day3humidity">Loading...</p>
+                <p class="main" id="day3Main">Loading...</p>
+                
+      
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+                <p class="temp" id="day4temp">Loading...</p>
+                <p class="humidity" id="day4humidity">Loading...</p>
+                <p class="main" id="day4Main">Loading...</p>
+                
+              
+            </div>
+            <div class = "icons">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="dots.png" class="imgClass" id="img5"></div>
+                <p class="temp" id="day5temp">Loading...</p>
+                <p class="humidity" id="day5humidity">Loading...</p>
+                <p class="main" id="day5Main">Loading...</p>
+                
+              
+            </div>
+           <div class = "icons">
+                <p class="weather" id="day6"></p>
+                <div class="image"><img src="dots.png" class="imgClass" id="img6"></div>
+                <p class="temp" id="day6temp">Loading...</p>
+                <p class="humidity" id="day6humidity">Loading...</p>
+                <p class="main" id="day6Main">Loading...</p>
+                
+             
+            </div>
+            <div class = "icons">
+               <p class="weather" id="day7"></p>
+                <div class="image"><img src="dots.png" class="imgClass" id="img7"></div>
+                <p class="temp" id="day7temp">Loading...</p>
+                <p class="humidity" id="day7humidity">Loading...</p>
+                <p class="main" id="day7Main">Loading...</p>
+               
+              
+                </div>
+            
+        </div>
+    </div>
+
+
+        <script src="app.js"></script>
+       
+
+
+</body>
+</html>
